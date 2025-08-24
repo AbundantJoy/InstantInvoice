@@ -20,7 +20,7 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        h1, h2, h3, h4 {
             color: #2c3e50;
         }
         h1 {
@@ -30,6 +30,14 @@
         h2 {
             font-size: 1.5em;
             margin-top: 20px;
+        }
+        h3 {
+            font-size: 1.3em;
+            margin-top: 15px;
+        }
+        h4 {
+            font-size: 1.1em;
+            margin-top: 10px;
         }
         p, li {
             font-size: 1em;
@@ -64,15 +72,22 @@
             h2 {
                 font-size: 1.2em;
             }
+            h3 {
+                font-size: 1.1em;
+            }
+            h4 {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <p><a href="#support">Go to Support</a></p>
         <h1>Instant Invoice Privacy Policy</h1>
 
         <h2>Introduction</h2>
-        <p>This Privacy CEMEX Policy explains how Instant Invoice ("we," "us," or "our") handles your information when you use our Invoice Generator mobile application ("App") on iOS devices. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.</p>
+        <p>This Privacy Policy explains how Instant Invoice ("we," "us," or "our") handles your information when you use our Invoice Generator mobile application ("App") on iOS devices. We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.</p>
         <p>By using the App, you agree to the terms of this Privacy Policy. If you do not agree with the terms of this policy, please do not use the App.</p>
 
         <h2>Information We Collect</h2>
@@ -121,8 +136,73 @@
 
         <h2>Contact Us</h2>
         <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
-        <p>Email: <a href="mailto:Joehammotr@protonmail.com">Joehammotr@protonmail.com</a></p>
-      
+        <p>Email: <a href="mailto:joehammotr@protonmail.com">joehammotr@protonmail.com</a></p>
+
+        <h2 id="support">Support</h2>
+        <h3>Instant Invoice Support Page</h3>
+        <p>Welcome to the support page for Instant Invoice. Here, you'll find guidance on how to create an account, set up your business, manage clients, create and send an invoice, as well as how to contact us for further assistance.</p>
+
+        <h4>How to Create an Account</h4>
+        <p>
+            <ul>
+                <li><strong>Access the App:</strong> Open the Instant Invoice app or visit the website.</li>
+                <li><strong>Sign Up:</strong> Click on the "Sign Up" or "Create Account" button.</li>
+                <li><strong>Enter Details:</strong> Use your email address as the username and create a secure password.</li>
+                <li><strong>Confirm:</strong> Follow any verification steps, such as confirming your email address, to complete the account setup.</li>
+                <li><strong>Log In:</strong> Return to the login page, enter your email and password, and log in to access your dashboard.</li>
+            </ul>
+        </p>
+
+        <h4>How to Set Up Your Business</h4>
+        <p>
+            <ul>
+                <li><strong>Go to Settings:</strong> From the dashboard, navigate to the "Settings" or "Account Settings" section.</li>
+                <li><strong>Enter Business Information:</strong> Input your business details, such as name, address, and contact information.</li>
+                <li><strong>Add Logo (Optional):</strong> Upload your business logo, if applicable, to personalize your invoices.</li>
+                <li><strong>Customize Email Template (Optional):</strong> In the "Settings" section, you can modify the email template used for sending invoices. It defaults to a prewritten text that includes your client's name and invoice details.</li>
+                <li><strong>Save Changes:</strong> Review and save your business information and email template to ensure they appear on your invoices.</li>
+            </ul>
+        </p>
+
+        <h4>How to Create a Client</h4>
+        <p>
+            <ul>
+                <li><strong>Access Clients Section:</strong> In the Instant Invoice app, tap the "Clients" button at the bottom of the screen.</li>
+                <li><strong>Add Client:</strong> Select the option to add a new client.</li>
+                <li><strong>Enter Client Information:</strong> Input the client's contact details, such as name, email, and billing address.</li>
+                <li><strong>Save Client:</strong> Save the information to add the client to your list.</li>
+            </ul>
+        </p>
+
+        <h4>How to Create an Invoice</h4>
+        <p>
+            <ul>
+                <li><strong>Navigate to Invoices:</strong> From the app’s dashboard, go to the "Invoices" page.</li>
+                <li><strong>Start New Invoice:</strong> Tap the plus sign (+) at the bottom of the Invoices page.</li>
+                <li><strong>Select Client:</strong> Choose your client from the dropdown menu.</li>
+                <li><strong>Enter Invoice Details:</strong> Input the service or product details, including description, quantity, and price. You may add additional lines for different line items.</li>
+                <li><strong>Upload Attachments (Optional):</strong> Attach any relevant receipts, backup documents, or photos of work.</li>
+                <li><strong>Create Invoice:</strong> Tap "Create Invoice." A pop-up will confirm that your invoice has been created.</li>
+                <li><strong>View Invoice:</strong> On the Invoices page, you will see your newly created invoice. Tap to open it.</li>
+                <li><strong>Manage Invoice:</strong> At the bottom of the invoice page, you can preview, edit, delete, or email the invoice.</li>
+            </ul>
+        </p>
+
+        <h4>How to Send an Invoice</h4>
+        <p>
+            <ul>
+                <li><strong>Open Invoice:</strong> From the Invoices page, tap on the invoice you wish to send.</li>
+                <li><strong>Select Email Option:</strong> Tap the "Email" button at the bottom of the invoice page.</li>
+                <li><strong>Review Email:</strong> Your mobile device’s email client will open with a pre-populated email, including the invoice details and a PDF attachment of the invoice.</li>
+                <li><strong>Send Email:</strong> Tap the upward arrow (or equivalent send button) to send the email to your client.</li>
+                <li><strong>Track Status:</strong> Monitor the invoice status (e.g., sent, viewed, paid) from your dashboard.</li>
+            </ul>
+        </p>
+
+        <h4>Contact Us for Assistance</h4>
+        <p>If you need further help or have any questions, feel free to reach out to our support team at:</p>
+        <p>Email: <a href="mailto:joehammotr@protonmail.com">joehammotr@protonmail.com</a></p>
+        <p>We’re here to ensure your experience with Instant Invoice is seamless!</p>
 
         <p>Thank you for using Instant Invoice!</p>
     </div>
